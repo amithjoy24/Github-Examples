@@ -1,11 +1,11 @@
 name: '2 min job'
 on: 
   schedule: 
-    -cron: '*/2 * * * *'
+    - cron: '*/2 * * * *'
 
 
 jobs:
   hello_world: 
     runs-on: ubuntu-latest
     steps: 
-      -run: echo hello_world
+      - run: echo hello_world
